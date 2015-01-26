@@ -100,6 +100,6 @@ function proceed(mlbcForEncodingAndDecoding) {
   document.getElementById("help").addEventListener("click", requestOpenHelp);
 }
 
-chrome.extension.sendMessage({action: "getMLBC"}, function(response) {
-  proceed(response.mlbc);
-});
+//chrome.extension.sendMessage({action: "getMLBC"}, function(response) {
+//  proceed(response.mlbc);
+//});
